@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Achemost;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://www.evanvandoren.com/wp-content/uploads/2023/09/Belle-Mechanique.png);
+  
+  }
+
+  @font-face {
+    font-family: Achemost;
+    src: url(/fonts/Achemost.otf);
+}
+  
+  .poster {
+    text-align: center;
+    background-color: #1f1791;
+    color: #fff;
+    padding: 40px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    margin: 20px 0;
+  }
+  
+  button {
+    background-color: #fff;
+    color: #ffffff;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
